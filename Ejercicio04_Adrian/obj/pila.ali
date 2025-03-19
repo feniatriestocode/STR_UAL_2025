@@ -1,0 +1,41 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U pila%b		pila.adb		356c01e0 NE OO PK IL
+
+U pila%s		pila.ads		4b1c579a EE NE OO PK IL
+
+D pila.ads		20250318163354 4b1c579a pila%s
+D pila.adb		20250318163712 7e70567a pila%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [vacia pila 4 13 none]
+G c Z s b [poner pila 5 14 none]
+G c Z s b [quitar pila 6 14 none]
+X 1 pila.ads
+1K9*pila 8l5 8e9 2|1b14 37l5 37t9
+3I9*Elemento<short_short_integer> 5r23 6r28 2|7r22 18r23 27r28
+4V13*Vacia{boolean} 2|13b13 16l8 16t13 30s14
+5U14*Poner 5>20 2|18b14 25l8 25t13
+5i20 E{3I9} 2|18b20 22r26
+6U14*Quitar 6<21 2|27b14 35l8 35t14
+6i21 E{3I9} 2|27b21 32m10
+X 2 pila.adb
+3R9 Nodo 4r26 5c9 9e17 21r20
+4P9 Enlace(3R9) 8r22 11r14 19r15 28r15
+7i10*Contenido{1|3I9} 22m13 32r21
+8p10*Siguiente{4P9} 23m13 33r27
+11p4 Primero{4P9} 15r14 23r26 24m7 31r19 33m10
+19p7 Nuevo{4P9} 21m7 22r7 23r7 24r18
+28p7 Viejo{4P9} 31m10 32r15 33r21
+

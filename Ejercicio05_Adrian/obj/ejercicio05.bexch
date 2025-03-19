@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__ejercicio05.o
+[PROJECT FILES]
+C:\WORKSPACES\STR\Ejercicio05\ejercicio05.gpr
+20250319111212 1ba801c83ca7d92185b0771a760875a3
+[BOUND OBJECT FILES]
+C:\WORKSPACES\STR\Ejercicio05\obj\numeros_complejos.o
+C:\WORKSPACES\STR\Ejercicio05\obj\ejercicio05.o
+[GENERATED SOURCE FILES]
+b__ejercicio05.ads
+b__ejercicio05.adb
+b__ejercicio05.ali
+[RESULTING OPTIONS]
+-LC:\WORKSPACES\STR\Ejercicio05\obj\
+-LC:\WORKSPACES\STR\Ejercicio05\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
