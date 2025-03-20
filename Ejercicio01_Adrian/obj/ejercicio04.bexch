@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__ejercicio04.o
+[PROJECT FILES]
+C:\WORKSPACES\STR\ejercicio01.gpr
+20250312161638 f75a60f159d9703e9523b722f0d2177a
+[BOUND OBJECT FILES]
+C:\WORKSPACES\STR\obj\ejercicio04.o
+[GENERATED SOURCE FILES]
+b__ejercicio04.ads
+b__ejercicio04.adb
+b__ejercicio04.ali
+[RESULTING OPTIONS]
+-LC:\WORKSPACES\STR\obj\
+-LC:\WORKSPACES\STR\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
